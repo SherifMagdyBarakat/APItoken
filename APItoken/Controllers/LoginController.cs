@@ -46,7 +46,7 @@ namespace APItoken.Controllers
             UserModel user = null;
             //validate user credentials
             //just added ine user for testing
-            if (login.Username.ToLower() == "sherif")
+            if (login.Username.ToLower() == "sherifbarakat")
             {
                 user = new UserModel { Username = login.Username, Password = login.Password };
             }
